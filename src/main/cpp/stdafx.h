@@ -9,14 +9,14 @@
 
 
 
-#ifndef __PMI_PC_API_H__
-#include "pmipc_api.h"      // #define PMI_PRCTRL_API
-#endif /* __PMI_PC_API_H__ */
+#ifndef __BINTURONG_API_H__
+#include "binturong_api.h"      // #define BINTURONG_API
+#endif /* __BINTURONG_API_H__ */
 
 
 
 /* common for all OS */
-#if defined(PMI_PRCTRL_COMPILE) && defined(__cplusplus)
+#if defined(BINTURONG_COMPILE) && defined(__cplusplus)
 
 // STL string and STL vector are used often enough,
 // thus globally #include both headers here
